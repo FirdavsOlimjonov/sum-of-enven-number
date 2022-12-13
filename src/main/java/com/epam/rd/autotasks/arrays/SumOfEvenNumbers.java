@@ -9,6 +9,7 @@ public class SumOfEvenNumbers {
     }
 
     public static int sum(int[] array){
+        if(array == null) return 0;
         int sum = 0;
 
         for (int i : array)
